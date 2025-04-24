@@ -22,7 +22,8 @@ https://bulb-toggle-button.netlify.app/)
 
 ## Screenshot
 
-![Screenshot 2025-04-24 164639](https://github.com/user-attachments/assets/42646f7c-4434-4419-a2a6-b1269bfac5df)
+![Screenshot 2025-04-24 165338](https://github.com/user-attachments/assets/e54f7f25-8362-41d4-8cba-481653a471ab)
+
 
 Feel free to fork, use, or modify this project for your learning!
 
