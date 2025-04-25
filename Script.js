@@ -2,6 +2,8 @@ let body = document.querySelector("body");
 const bulb = document.querySelector('.bulb');
 const button = document.querySelector('button');
 let light = 'off';
+let audio_on = document.querySelector("#audio-on");
+let audio_off = document.querySelector("#audio-off");
 
 button.addEventListener('click', function() {
     if(light === 'off') {
@@ -10,6 +12,7 @@ button.addEventListener('click', function() {
         bulb.style.transform = "scale(1.03)"
         body.style.backgroundColor = "black"
         button.innerHTML = "Turn OFF"
+        audio_on.play();
         button.style.backgroundColor = "blue"
         button.style.color = "white"
         button.style.border = "1px solid white"
@@ -28,6 +31,7 @@ button.addEventListener('click', function() {
         document.querySelector("h1").style.color = "black"
         bulb.style.boxShadow = "none"
         button.innerHTML = "Turn ON"
+        audio_off.play();
         button.style.border = "1px solid black"
         light = 'off';
         document.querySelector(".down-line-1").style.backgroundColor = "rgb(77, 67, 67)"
